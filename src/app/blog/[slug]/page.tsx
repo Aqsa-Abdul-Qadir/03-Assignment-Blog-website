@@ -1,8 +1,9 @@
-import { getBlogBySlug } from '@/sanity/lib/SanityQueries'; // Import the function to fetch a blog post by slug
+import { getBlogBySlug } from '@/sanity/lib/sanityQueries';
 import { notFound } from 'next/navigation'; // For handling 404
 import BlogComments from './BlogComment';
 import { urlFor } from '@/sanity/lib/image';
 import { PortableText } from '@portabletext/react';
+
 
 // Adjust the type of params to not be a Promise
 interface BlogProps {
