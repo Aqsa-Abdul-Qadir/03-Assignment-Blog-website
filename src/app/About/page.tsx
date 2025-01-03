@@ -19,7 +19,7 @@ const About: React.FC = () => {
         <h2 className="text-3xl font-semibold text-charcoal-gray mb-4">Our Mission</h2>
         <p className="text-lg text-gray-700 mb-6">
           At Smart Algorithms, our mission is to simplify complex AI and algorithm topics, making them
-          accessible and understandable for everyone. Whether you're a beginner or an expert, we aim to
+          accessible and understandable for everyone. Whether youre a beginner or an expert, we aim to
           share valuable knowledge to help you stay ahead in the fast-evolving tech landscape.
         </p>
 
